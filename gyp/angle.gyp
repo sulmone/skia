@@ -13,7 +13,7 @@
         'skia_warnings_as_errors': 0,
       },
       'includes': [
-        '../third_party/externals/angle/src/build_angle.gypi',
+        '../../angle/src/build_angle.gypi',
       ],
     }],
   ],
@@ -25,7 +25,7 @@
         [ 'skia_angle', {
           'direct_dependent_settings': {
             'include_dirs': [
-              '../third_party/externals/angle/include',
+              '../../angle/include',
             ],
           },
         }],
